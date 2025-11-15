@@ -9,7 +9,8 @@ const {
 const fs = require("fs");
 const cron = require("node-cron");
 
-const token = "MTQzOTM2OTM4MDk2NTM4NDMzNw.GpBHek.2m2yVu3cwbNMq2LTTUXipI4ssxV8eeHKRpVT74";
+const token = process.env.TOKEN;
+
 
 // Load sales data
 let sales = {};
@@ -221,4 +222,5 @@ cron.schedule("0 0 * * 0", () => {
 
 // Login bot
 client.login(token);
+
 
