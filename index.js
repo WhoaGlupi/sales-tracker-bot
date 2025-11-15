@@ -9,7 +9,7 @@ const {
 const fs = require("fs");
 const cron = require("node-cron");
 
-const token = "MTQzOTM2OTM4MDk2NTM4NDMzNw.G-IL8B.hXWEf7fjAh8KcEEOi_iI1dcWTd1EMS5j7_T2HU";
+const token = "MTQzOTM2OTM4MDk2NTM4NDMzNw.GE21Ty.IlxnqEcKdnxqU0J9QKMTQw7zu8OsAk-Umbr_-U";
 
 // Load sales data
 let sales = {};
